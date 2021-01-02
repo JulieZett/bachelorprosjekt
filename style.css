@@ -7,8 +7,8 @@
 }
 
 .navbar {
-    background: #252525;
-    height: 80px;
+    background: #161616;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 
 #navbar_logo {
     background-color: #4dccfa;
-    background-image: linear-gradient(to top, #503fb1 0%, #51c6f8 100%);
+    background-image: linear-gradient(to top, #5D26C1 0%, #51c6f8 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -68,7 +68,7 @@
 }
 
 .navbar_links:hover {
-    color: #f36608;
+    color: #59C173;
     transition: all 0.3s ease;
 }
 
@@ -87,15 +87,15 @@
         grid-template-columns: auto;
         width: 100%;
         position: absolute;
-        /*top: -1000px;*/
+        top: -1000px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
-        background: #252525;
+        background: #161616;;
     }
 
     .navbar_menu.active{
-        background: #252525;
+        background:#161616;;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -151,3 +151,49 @@
         transform: translateY(-8px) rotate(-45deg);        
     }
 }
+
+/*HERO SECTION*/
+    .hero {
+        background: #d3f0f8;
+        background: linear-gradient(to right,  #d3f0f8, #91aaf0);
+        padding: 200px 0;
+    }
+
+    .hero_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .hero_heading {
+        font-size: 40px;
+        margin-bottom: 24px;
+        color: #000000;
+
+    }
+
+    .hero_heading span {
+        background: #59C173;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -mo-text-fill-color: transparent;
+    }
+
+    .hero_description{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .highlight{
+        border-bottom: 4px solid rgb(132, 0, 255);
+    }
