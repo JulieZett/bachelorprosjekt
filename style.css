@@ -11,7 +11,6 @@
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     height: 70px;
     display: flex;
     justify-content: center;
@@ -72,7 +71,7 @@
 }
 
 .navbar_links:hover {
-    color: #5D26C1;
+    color: #59C173;
     transition: all 0.3s ease;
 }
 
@@ -99,12 +98,14 @@
     }
 
     .navbar_menu.active{
-        background:#161616;;
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 60vh;
+        height: 80vh;
         font-size: 1.6rem;
     }
 
@@ -117,7 +118,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #fff;
+        background: rgb(207, 206, 206);
     }
 
     .navbar_item{
@@ -177,7 +178,7 @@
     }
 
     .hero_heading {
-        font-size: 40px;
+        font-size: 37px;
         margin-bottom: 24px;
         color: #b6b3b3;
         font-family: 'Open Sans', sans-serif;
@@ -279,6 +280,7 @@
         text-align: center;
         margin-top: 24px;
         font-size: 20px;
+        color: #6f9b7a;
       }
       
     
@@ -298,4 +300,37 @@
         .gruppen__wrapper {
           grid-template-columns: 1fr;
         }
+      }
+
+      /* Dokumenter */
+      
+    .dokumenter {
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 10rem 0;
+      }
+      
+      .dokumenter h1 {
+        background-color: #cecfcf;
+        background-image: linear-gradient(to top, #b9b8bb 0%, #6d6b6b 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        margin-bottom: 5rem;
+        font-size: 2.5rem;
       }
