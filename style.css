@@ -9,8 +9,8 @@
 
 .navbar {
     background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 70px;
     display: flex;
     justify-content: center;
@@ -99,8 +99,8 @@
 
     .navbar_menu.active{
         background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -157,11 +157,11 @@
     }
 }
 
-/*HERO SECTION*/
+/*HERO SECTION/ AKA "Forsiden"*/
     .hero {
-        background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #190c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
@@ -182,7 +182,6 @@
         margin-bottom: 24px;
         color: #b6b3b3;
         font-family: 'Open Sans', sans-serif;
-
     }
 
     .hero_heading span {
@@ -223,9 +222,9 @@
 
     .gruppen {
         background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         background-size: 100%;
         display: flex;
         flex-direction: column;
@@ -260,14 +259,14 @@
       
       .person__card {
         margin: 10px;
-        height: 425px;
+        height: 455px;
         width: 300px;
         border-radius: 4px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         color: rgb(236, 237, 238);
-        background-color:#0d0e0d;
+        background-color:#161a22;
         transition: 0.3s ease-in;
       }
       
@@ -289,6 +288,18 @@
         transition: 0.3s ease-in;
         cursor: pointer;
       }
+      .img-card {
+        display: block;
+        width: 100%;
+        height: 20rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        border-radius: 50%;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
       
       @media screen and (max-width: 1300px) {
         .gruppen__wrapper {
@@ -306,9 +317,9 @@
       
     .dokumenter {
         background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         background-size: 100%;
         display: flex;
         flex-direction: column;
