@@ -9,8 +9,8 @@
 
 .navbar {
     background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 70px;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
 
 #navbar_logo {
     background-color: #bdbfc0;
-    background-image: linear-gradient(to top, #969597 0%, #e9e6e6 100%);
+    background-image: linear-gradient(to top, #e0d8e7 0%, #9072b8 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -99,8 +99,8 @@
 
     .navbar_menu.active{
         background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -160,9 +160,8 @@
 /*HERO SECTION/ AKA "Forsiden"*/
     .hero {
         background: #190c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .hero_container{
@@ -222,9 +221,8 @@
 
     .gruppen {
         background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: 100%;
         display: flex;
         flex-direction: column;
@@ -236,19 +234,14 @@
       
       .gruppen h1 {
         background-color: #cecfcf;
-        background-image: linear-gradient(to top, #b9b8bb 0%, #6d6b6b 100%);
+        background-image: linear-gradient(to top, #b9b8bb 0%, #9072b8 100%);
         background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        margin-bottom: 5rem;
         font-size: 2.5rem;
+        padding-bottom: 2rem;
       }
       
       .gruppen__wrapper {
@@ -317,9 +310,8 @@
       
     .dokumenter {
         background: #0f0c29;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #24293e, #2b3563, #0e0c29);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #24263e, #2b3d63, #0c1429); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: 100%;
         display: flex;
         flex-direction: column;
@@ -327,16 +319,12 @@
         align-items: center;
         height: 100%;
         padding: 10rem 0;
+
       }
       
       .dokumenter h1 {
         background-color: #cecfcf;
-        background-image: linear-gradient(to top, #b9b8bb 0%, #6d6b6b 100%);
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
+        background-image: linear-gradient(to top, #b9b8bb 0%, #9072b8 100%);
         background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -345,3 +333,53 @@
         margin-bottom: 5rem;
         font-size: 2.5rem;
       }
+
+      .dokument_card {
+        margin: 10px;
+        height: 400px;
+        width: 300px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        color: rgb(236, 237, 238);
+        background-color: transparent
+        ;
+       
+      }
+
+      .dokument_card a {
+          height: 2rem;
+          width: 100%;
+          color: white;
+          text-decoration: none;
+          font-size: 30px;
+          
+          
+      }
+
+      .dokument_card h3{
+          align-items: center;
+          color:#59C173;;
+          margin-left: 2rem;
+          margin-bottom: 4rem;
+          padding-top: 1rem;
+      }
+
+      .dokument_wrapper {
+          justify-content: center;
+          font-size: 50px;
+          color: rgb(209, 207, 207);
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr;
+          
+    
+      }
+      
+      
+      @media screen and (max-width: 768px) {
+        .dokument_wrapper {
+          grid-template-columns: 1fr;
+        }
+      }
+   
