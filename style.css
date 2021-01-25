@@ -342,8 +342,8 @@
         display: flex;
         justify-content: center;
         color: rgb(236, 237, 238);
-        background-color: transparent
-        ;
+        
+        
        
       }
 
@@ -364,6 +364,7 @@
           margin-bottom: 4rem;
           padding-top: 1rem;
           cursor: pointer;
+          
       }
 
       .dokument_wrapper {
@@ -373,6 +374,9 @@
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 1fr;
+          
+          
+          
     }
 
       .dokument_card h3:hover {
@@ -381,12 +385,17 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+      
+        
     }
     .icon_style {
       justify-content: center;
       font-size: 150px;
       margin-top: 5rem;
       margin-left: -190px;
+     
+      
     }
 
     .icon_style:hover{
@@ -396,7 +405,7 @@
       
 
       @media screen and (max-width: 768px) {
-        .dokument_card {
+        .dokument_wrapper {
           grid-template-columns: 1fr;
           grid-template-rows: 1fr;
         }
