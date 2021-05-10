@@ -71,7 +71,7 @@
 }
 
 .navbar_links:hover {
-    color: #59C173;
+    color: #fdc62d;
     transition: all 0.3s ease;
 }
 
@@ -184,9 +184,9 @@
     }
 
     .hero_heading span {
-        background: #59C173;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #fdc62d;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #fdc62d);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #5D26C1, #a17fe0, #fdc62d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -246,8 +246,8 @@
       
       .gruppen__wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: 1fr 1fr;
       }
       
       .person__card {
@@ -273,7 +273,7 @@
         margin-top: 24px;
         font-size: 20px;
         font-weight: bold;
-        color: #6f9b7a;
+        color: #fdc62d;
       }
       
     
@@ -303,7 +303,7 @@
         transform: scale(1.075);
         transition: 0.3s ease-in;
         cursor: pointer;
-        color:rgb(70, 143, 82);
+        color: #fdc62d;
 
     }
 
@@ -373,7 +373,7 @@
 
       .dokument_card h3{
           align-items: center;
-          color:#59C173;;
+          color: #fdc62d;
           margin-left: 2rem;
           margin-bottom: 4rem;
           padding-top: 1rem;
@@ -413,7 +413,7 @@
     }
 
     .icon_style:hover{
-      color: #59C173;
+      color: #fdc62d;
     }
       
       
